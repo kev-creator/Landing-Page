@@ -1,0 +1,30 @@
+@import "primeflex/primeflex.css";
+
+body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.image {
+  width: 639px;
+  aspect-ratio: auto 639 / 563;
+  height: 563px;
+}
+.text-color {
+  color: #16db65 !important;
+}
+
+.color-background {
+  color: #16db65;
+}
+
+.p-button-raised {
+  background-color: #16db65 !important;
+  border: 1px solid #16db65;
+  border: hover 1px solid #16db65 !important;
+}
+
+.p-button-outlined {
+  border: 1px solid #16db65;
+  color: #000000 !important;
+}
