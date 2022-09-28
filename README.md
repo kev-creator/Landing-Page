@@ -1,5 +1,9 @@
 # LandingPage
 
+This is an example landing page for testing of style's purpose
+
+https://landing-page-mu-puce.vercel.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
 ## Development server
