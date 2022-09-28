@@ -17,14 +17,22 @@ body {
 .color-background {
   color: #16db65;
 }
+.text-cyan-500 {
+  color: #16db65 !important;
+}
+.bg-cyan-500 {
+  background-color: #16db65 !important;
+  font: 1em sans-serif;
+  font-weight: 500 !important;
+}
 
-.p-button-raised {
+.button-raised {
   background-color: #16db65 !important;
   border: 1px solid #16db65;
   border: hover 1px solid #16db65 !important;
 }
 
-.p-button-outlined {
+.button-outlined {
   border: 1px solid #16db65;
   color: #000000 !important;
 }
