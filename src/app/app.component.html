@@ -1,7 +1,7 @@
 <div id="blockContent" class="block-content">
   <div class="block-content-active">
     <div
-      class="surface-overlay py-3 px-6 shadow-2 flex align-items-center justify-content-between relative lg:static"
+      class="surface-overlay py-3 px-6 shadow-2 flex align-items-center justify-content-between relative lg:static border-bottom-1 border-gray-100"
       style="min-height: 80px"
     >
       <h1>GREEN CODE</h1>
@@ -32,66 +32,23 @@
               data-pb-styleclass="{ selector: '@next', enterClass: 'hidden', enterActiveClass: 'scalein', leaveToClass: 'hidden', leaveActiveClass: 'fadeout', hideOnOutsideClick: true }"
             >
               <i class="pi pi-users mr-2"></i>
-              <span>Customers</span>
-              <i class="pi pi-angle-down ml-auto lg:ml-3"></i>
-            </a>
-            <ul
-              class="list-none py-3 px-6 m-0 lg:px-0 lg:py-0 border-round shadow-0 lg:shadow-2 lg:border-1 border-50 lg:absolute surface-overlay hidden origin-top w-full lg:w-15rem cursor-pointer"
-            >
-              <li>
-                <a
-                  class="flex p-3 align-items-center text-600 hover:text-900 hover:surface-100 transition-colors transition-duration-150"
-                >
-                  <i class="pi pi-user-plus mr-2"></i>
-                  <span class="font-medium">Add New</span>
-                </a>
-              </li>
-              <li class="relative">
-                <a
-                  class="flex p-3 align-items-center text-600 hover:text-900 hover:surface-100 transition-colors transition-duration-150"
-                  data-pb-styleclass="{ selector: '@next', enterClass: 'hidden', enterActiveClass: 'scalein', leaveToClass: 'hidden', leaveActiveClass: 'fadeout', hideOnOutsideClick: true }"
-                >
-                  <i class="pi pi-search mr-2"></i>
-                  <span class="font-medium">Search</span>
-                  <i class="pi pi-angle-down ml-auto lg:-rotate-90"></i>
-                </a>
-                <ul
-                  class="list-none py-3 pl-3 m-0 lg:px-0 lg:py-0 border-round shadow-0 lg:shadow-2 lg:border-1 border-50 lg:absolute surface-overlay hidden origin-top w-full lg:w-15rem cursor-pointer left-100 top-0"
-                >
-                  <li>
-                    <a
-                      class="flex p-3 align-items-center text-600 hover:text-900 hover:surface-100 transition-colors transition-duration-150"
-                    >
-                      <i class="pi pi-shopping-cart mr-2"></i>
-                      <span class="font-medium">Purchases</span>
-                    </a>
-                  </li>
-                  <li class="relative">
-                    <a
-                      class="flex p-3 align-items-center text-600 hover:text-900 hover:surface-100 transition-colors transition-duration-150"
-                    >
-                      <i class="pi pi-comments mr-2"></i>
-                      <span class="font-medium">Messages</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a
-              class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer transition-colors transition-duration-150"
-            >
-              <i class="pi pi-calendar mr-2"></i>
-              <span>Calendar</span>
+              <span>About Us</span>
             </a>
           </li>
           <li>
             <a
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer transition-colors transition-duration-150"
             >
-              <i class="pi pi-chart-line mr-2"></i>
-              <span>Stats</span>
+              <i class="pi pi-question-circle mr-2"></i>
+              <span>Questions</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer transition-colors transition-duration-150"
+            >
+              <i class="pi pi-phone mr-2"></i>
+              <span>Contact us</span>
             </a>
           </li>
         </ul>
@@ -148,14 +105,14 @@
         pRipple
         label="Learn More"
         type="button"
-        class="mr-3 p-button-raised"
+        class="mr-3 button-raised"
       ></button>
       <button
         pButton
         pRipple
         label="Live Demo"
         type="button"
-        class="p-button-outlined"
+        class="button-outlined"
       ></button>
     </section>
   </div>
@@ -281,33 +238,44 @@
     </div>
   </div>
 </div>
+
 <div id="blockContent" class="block-content">
   <div class="block-content-active">
-    <div
-      class="bg-gray-900 p-8 flex justify-content-center md:justify-content-end bg-no-repeat bg-cover md:bg-contain"
-      style="
-        background: url(/primeblocks-jsf/javax.faces.resource/images/blocks/cta/cta-2.png.xhtml?ln=primeblocks-app);
-      "
-    >
-      <div class="px-5">
-        <div class="text-white font-bold text-6xl">Ready to build beyond</div>
-        <div class="text-blue-200 font-bold text-6xl">your expectations?</div>
-        <div class="mt-3 mb-5 text-gray-200 font-medium line-height-3">
-          Vestibulum sed arcu non odio euismod lacinia at quis risus. Massa
-          massa ultricies mi quis.
+    <div class="surface-ground px-4 py-8 md:px-6 lg:px-8">
+      <div
+        class="flex flex-wrap relative overflow-hidden"
+        style="
+          border-radius: 1rem;
+          background: radial-gradient(
+              100% 1126.49% at 100% 0%,
+              rgba(106, 200, 212, 0.4) 0%,
+              rgba(33, 33, 33, 0) 100%
+            ),
+            #212121;
+        "
+      >
+        <div class="px-6 py-8">
+          <span class="uppercase text-cyan-500 font-bold"
+            >BE THE FIRST ONE</span
+          >
+          <div class="text-white text-medium text-5xl mt-3 mb-5">
+            Join our services Today!
+          </div>
+          <button
+            type="button"
+            class="appearance-none p-3 bg-cyan-500 hover:bg-green-100 cursor-pointer transition-colors font-large gray-900 border-none ui-widget transition-colors transition-duration-150"
+            style="border-radius: 35px"
+          >
+            Join Now
+          </button>
         </div>
-        <p-button label="Information" styleClass="p-button-sm"></p-button>
-        <script id="j_idt106:blockViewerForm:j_idt108_s" type="text/javascript">
-          $(function () {
-            PrimeFaces.cw(
-              "CommandButton",
-              "widget_j_idt106_blockViewerForm_j_idt108",
-              {
-                id: "j_idt106:blockViewerForm:j_idt108",
-              }
-            );
-          });
-        </script>
+        <img
+          id="j_idt342:blockViewerForm:j_idt344"
+          src="https://www.primefaces.org/primeblocks-jsf/javax.faces.resource/images/blocks/cta/cta-browser.png.xhtml?ln=primeblocks-app"
+          class="static lg:absolute block mx-auto"
+          alt="Image"
+          style="height: 400px; top: -2rem; right: -1rem"
+        />
       </div>
     </div>
   </div>
