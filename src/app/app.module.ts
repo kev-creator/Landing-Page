@@ -7,8 +7,21 @@ import { PanelModule } from 'primeng/panel';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { DividerModule } from 'primeng/divider';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    AboutUsComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    ContactComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -16,6 +29,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ButtonModule,
     FormsModule,
     BrowserAnimationsModule,
+    DividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
